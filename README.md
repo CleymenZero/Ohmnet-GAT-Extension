@@ -35,6 +35,17 @@ The model demonstrates **high-precision ranking capabilities**:
 - **Ubiquitous Proteins:** Demonstrated "Graceful Degradation," maintaining >75% precision even for widespread housekeeping proteins by assigning "soft" lower-confidence probabilities to related secondary tissues.
 - **Benchmark:** Successfully exceeded the performance threshold for leaf tissue reconstruction tasks.
 
+## Model Interpretability
+Unlike previous unsupervised approaches (OhmNet), this architecture provides a biologically interpretable mechanism via **Graph Attention Weights**. 
+
+A validation study on a major network hub (**Protein 4914**, with 786 neighbors) revealed the following:
+- **Functional Specificity:** The top 5 attention neighbors (e.g., Neighbors 401, 57611, 51062) all share the **`nervous_system`** tissue tag with the hub.
+- **Attention Selection:** The model assigned ~36% of its total attention to just the top two neighbors, successfully filtering out ~780 noisy connections.
+- **Role Differentiation:**
+    - **Specialist Neighbors:** (e.g., 57611, 51062) helped the model pinpoint niche tissues.
+    - **Generalist Neighbors:** (e.g., 10156, 27352) helped reinforce broader tissue groups like `blood` and `hematopoietic`.
+- **Conclusion:** This confirms the GAT mechanism is successfully learning the **spatial co-occurrence** of proteins, "inheriting" functional information from biologically consistent neighbors.
+
 ## Requirements
 - Python 3.x
 - PyTorch / PyTorch Geometric
