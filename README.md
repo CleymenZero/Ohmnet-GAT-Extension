@@ -50,4 +50,4 @@ The model demonstrates **high-precision ranking capabilities**:
 4. Evaluate the model using the final metrics cell to compare against the leaf-tissue benchmark.
 
 ---
-*Created as part of the COMPR6841 Capstone Project.*
+*Created as part of the COMP6841 Capstone Project.*
