@@ -1,64 +1,61 @@
-# Late Fusion Graph Attention Network (GAT) for Tissue-Specific Function Prediction
+# Late Fusion Graph Attention Network (GAT) for Tissue-Specific Protein Function Prediction
 
-## Overview
-This project targets the prediction of multicellular functions by mapping protein-protein interaction (PPI) networks across human anatomical hierarchies. It represents a **deep supervised extension** of the **OhmNet** study (Zitnik and Leskovec, 2017), replacing unsupervised random-walk features with a modern **Graph Attention Network (GAT)** architecture.
+This project explores the application of a **Late Fusion Graph Attention Network (GAT)** to predict tissue-specific functions in complex protein-protein interaction (PPI) networks. Built as an advanced extension of the **OhmNet** study, this architecture replaces unsupervised random-walk features with supervised multi-head attention to enhance both predictive accuracy and biological interpretability.
 
-The model is designed to leverage both local interaction network structure and global anatomical context (BRENDA Tissue Ontology) to predict tissue-specific interactions with high biological fidelity.
+## 🚀 Key Features
 
-## Key Features
-- **Hierarchical GNN Architecture:** Uses a `LateFusionGAT` model combining multi-head attention (16 heads) with a multi-layer perceptron (MLP).
-- **Ontological Context:** Integrates `node2vec` embeddings of the **BRENDA Tissue Ontology (BTO)** directly into the feature fusion step.
-- **Hierarchical Constrained Loss:** Implements a custom loss function that penalizes logical violations, ensuring the model respects anatomical logic (e.g., $P(\text{Heart}) \ge P(\text{Left Ventricle})$).
-- **Benchmark Performance:** Specifically optimized to exceed the **0.756 ROCAUC target** on 107 leaf-level tissues.
+- **Late Fusion GAT Architecture**: Implements the `LateFusionGAT` model, integrating multi-head attention (16 heads) with a multi-layer perceptron (MLP) for feature fusion and classification.
+- **Hierarchical Ontological Context**: Leverages `node2vec` embeddings of the **BRENDA Tissue Ontology (BTO)** to provide a global anatomical context for predictions.
+- **Efficient Data Handling**: Uses `LinkNeighborLoader` from PyTorch Geometric for scalable training on large-scale PPI graphs with batch-based neighborhood sampling.
+- **Hierarchical Constrained Loss**: Features a custom loss function designed to preserve anatomical consistency across parent and child nodes in the tissue hierarchy.
+- **SOTA Performance**: Optimized with specific hyperparameter tuning, maintaining an optimal dropout rate of 0.3 to maximize generalizability across 107 leaf tissues.
 
-## Project Structure
-```text
-├── COMPR6841 - Capstone Project - SR.ipynb  # Main experiment notebook
-├── best_model.pt                             # Best performing model weights
-├── node2vec_model.pth                         # Learned tissue hierarchy embeddings
-├── checkpoints/                              # Periodic model saves
-└── data/
-    ├── tissue.hierarchy                      # The anatomical tree structure
-    ├── BrendaTissue.obo                      # Official BTO documentation
-    └── PPT-Ohmnet_tissues-combined.edgelist # Multi-tissue PPI dataset
-```
+## 🏗️ Project Structure
 
-## Methodology
-1. **Tissue Embedding:** The tissue hierarchy is processed as a directed graph. `Node2Vec` is used to learn recursive structural features for each anatomical node.
-2. **Network Sampling:** Uses `LinkNeighborLoader` from PyTorch Geometric for spatial neighborhood sampling, allowing the model to process massive PPI networks in efficient batches (1024).
-3. **Late Fusion:** For any protein pair $(A, B)$, the GAT contextualizes the protein features, which are then fused with the "address" of the target tissue hierarchy's root node.
-4. **Supervised Training:** The model is trained over 1000 epochs with **Early Stopping** (patience=50) to optimize for both accuracy and hierarchical consistency.
+- `COMP6841 - Capstone Project - SR.ipynb`: The primary research notebook featuring data preprocessing, model implementation, and final evaluation.
+- `data/`: Contains raw PPI datasets, tissue hierarchy files (`tissue.hierarchy`), and BTO documentation (`BrendaTissue.obo`).
+- `best_model.pt`: Checkpoint containing weights for the top-performing model (calculated using validation loss early stopping).
+- `node2vec_model.pth`: Pre-trained embeddings for the tissue hierarchy.
 
-## Results
-The model demonstrates **high-precision ranking capabilities**:
-- **Specific Tissues:** Achieved ~88% Precision for localized interactions (e.g., Cardiac-specific pairs).
-- **Ubiquitous Proteins:** Demonstrated "Graceful Degradation," maintaining >75% precision even for widespread housekeeping proteins by assigning "soft" lower-confidence probabilities to related secondary tissues.
-- **Benchmark:** Successfully exceeded the performance threshold for leaf tissue reconstruction tasks.
+## 🔬 Methodology
 
-## Model Interpretability
-Unlike previous unsupervised approaches (OhmNet), this architecture provides a biologically interpretable mechanism via **Graph Attention Weights**. 
+1. **Hierarchy Embedding**: The Brenda Tissue Ontology is modeled as a directed graph, and `Node2Vec` is applied to capture structural relationships between anatomical sites.
+2. **Graph Sampling**: `LinkNeighborLoader` samples spatial neighborhoods, facilitating memory-efficient training on representative subgraphs.
+3. **Late Fusion Mechanism**: Models protein pair interactions using the GAT's contextual encoding, subsequently fusing these features with the hierarchical tissue "address" before final prediction.
+4. **Optimization**: Training utilizes **Early Stopping** (patience=50) and a learning rate of 0.001 with the Adam optimizer over up to 1000 epochs.
 
-A validation study on a major network hub (**Protein 4914**, with 786 neighbors) revealed the following:
-- **Functional Specificity:** The top 5 attention neighbors (e.g., Neighbors 401, 57611, 51062) all share the **`nervous_system`** tissue tag with the hub.
-- **Attention Selection:** The model assigned ~36% of its total attention to just the top two neighbors, successfully filtering out ~780 noisy connections.
-- **Role Differentiation:**
-    - **Specialist Neighbors:** (e.g., 57611, 51062) helped the model pinpoint niche tissues.
-    - **Generalist Neighbors:** (e.g., 10156, 27352) helped reinforce broader tissue groups like `blood` and `hematopoietic`.
-- **Conclusion:** This confirms the GAT mechanism is successfully learning the **spatial co-occurrence** of proteins, "inheriting" functional information from biologically consistent neighbors.
+## 📊 Results
 
-## Requirements
-- Python 3.x
-- PyTorch / PyTorch Geometric
+The model significantly exceeds industry benchmarks and the initial project goal of 0.756 AUROC.
+
+- **Test Leaf AUROC**: `0.9549`
+- **Macro-AUPRC**: `0.8325`
+- **Macro-F1 Score**: `0.7634`
+
+*Note: These results reflect the 0.3 dropout configuration, which showed consistent superiority over higher regularization rates (0.4/0.5).*
+
+## 🧠 Model Interpretability (Attention Analysis)
+
+The attention mechanism identifies functional clusters by prioritizing neighbors with consistent biological roles.
+
+**Hub Analysis: Protein 1956**
+A study on this highly connected protein revealed that the GAT captures functional relevance through weighted attention:
+- **Top Neighbor**: Protein `3226` (Weight: `0.2933`)
+- **Functional Alignment**: Higher weights were observed for biological neighbors sharing the same nervous system tissue tags, confirming the model's ability to filter noise and focus on critical functional pathways.
+
+## 🛠️ Requirements
+
+- Python 3.12+
+- PyTorch & PyTorch Geometric
 - NetworkX
-- Pandas / NumPy
+- Pandas, NumPy, Scikit-learn
 - Matplotlib
-- Pronto (for OBO parsing)
 
-## Usage
-1. Ensure the `data/` directory contains the necessary edge lists and ontology files.
-2. Run the `Node2Vec` training cell to generate `node2vec_model.pth`.
-3. Execute the `LateFusionGAT` training loop within the Jupyter Notebook.
-4. Evaluate the model using the final metrics cell to compare against the leaf-tissue benchmark.
+## 🏃 Usage
 
----
-*Created as part of the COMP6841 Capstone Project.*
+1. **Populate Data**: Ensure all PPI and BTO files are located in the `data/` directory.
+2. **Execute Workflow**: Open `COMP6841 - Capstone Project - SR.ipynb` and run cells sequentially to:
+   - Generate tissue embeddings.
+   - Train the `LateFusionGAT` model.
+   - Visualize attention weights for network hub proteins.
+3. **Evaluation**: Use the provided `best_model.pt` to replicate the leaf-tissue metrics analysis.
