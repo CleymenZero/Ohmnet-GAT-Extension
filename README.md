@@ -28,9 +28,9 @@ This project explores the application of a **Late Fusion Graph Attention Network
 
 The model significantly exceeds industry benchmarks and the initial project goal of 0.756 AUROC.
 
-- **Test Leaf AUROC**: `0.9549`
-- **Macro-AUPRC**: `0.8325`
-- **Macro-F1 Score**: `0.7634`
+- **Test Leaf AUROC**: `0.9759`
+- **Macro-AUPRC**: `0.8974`
+- **Macro-F1 Score**: `0.8440`
 
 *Note: These results reflect the 0.3 dropout configuration, which showed consistent superiority over higher regularization rates (0.4/0.5).*
 
