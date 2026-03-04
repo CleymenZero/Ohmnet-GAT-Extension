@@ -28,9 +28,12 @@ This project explores the application of a **Late Fusion Graph Attention Network
 
 The model significantly exceeds industry benchmarks and the initial project goal of 0.756 AUROC.
 
+![metrics](image.png)
+
 - **Test Leaf AUROC**: `0.9759`
-- **Macro-AUPRC**: `0.8974`
+- **Macro-AUPRC**: `0.8973`
 - **Macro-F1 Score**: `0.8440`
+
 
 *Note: These results reflect the 0.3 dropout configuration, which showed consistent superiority over higher regularization rates (0.4/0.5).*
 
@@ -40,8 +43,10 @@ The attention mechanism identifies functional clusters by prioritizing neighbors
 
 **Hub Analysis: Protein 1956**
 A study on this highly connected protein revealed that the GAT captures functional relevance through weighted attention:
-- **Top Neighbor**: Protein `3226` (Weight: `0.2933`)
+- **Top Neighbor**: Protein `4257` (Weight: `0.4015`)
 - **Functional Alignment**: Higher weights were observed for biological neighbors sharing the same nervous system tissue tags, confirming the model's ability to filter noise and focus on critical functional pathways.
+
+![attention_weights](image-1.png)
 
 ## 🛠️ Requirements
 
