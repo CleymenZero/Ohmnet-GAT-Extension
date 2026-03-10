@@ -28,25 +28,23 @@ This project explores the application of a **Late Fusion Graph Attention Network
 
 The model significantly exceeds prior benchmarks and the initial project goal of 0.756 AUROC.
 
-![metrics](image-2.png)
+- **Test Leaf AUROC**: `0.9928`
+- **Macro-AUPRC**: `0.9562`
+- **Macro-F1 Score**: `0.9031`
+- **Test Micro-F1 Score**: `0.9671`
+- **Hierarchical Violation Rate**: `0.51%` (Test Set)
 
-- **Test Leaf AUROC**: `0.9602`
-- **Macro-AUPRC**: `0.8454`
-- **Macro-F1 Score**: `0.7677`
-
-
-*Note: These results reflect the 0.3 dropout configuration, which showed consistent superiority over higher regularization rates (0.4/0.5).*
+*Note: These results reflect the 0.3 dropout configuration with GATv2Conv layers and an adaptive hierarchical penalty, which showed consistent superiority over standard GAT architecture.*
 
 ## 🧠 Model Interpretability (Attention Analysis)
 
 The attention mechanism identifies functional clusters by prioritizing neighbors with consistent biological roles.
 
 **Hub Analysis: Protein 1956**
-A study on this highly connected protein revealed that the GAT captures functional relevance through weighted attention:
-- **Top Neighbor**: Protein `4257` (Weight: `0.4015`)
-- **Functional Alignment**: Higher weights were observed for biological neighbors sharing the same nervous system tissue tags, confirming the model's ability to filter noise and focus on critical functional pathways.
-
-![attention_weights](image-1.png)
+A study on this highly connected protein (458 neighbors) revealed its role as a "Boss Node":
+- **Incoming Attention**: The protein attends broadly and evenly to its neighbors (max weight `0.0059`), signifying complex information integration.
+- **Outgoing Influence**: Neighbors attend heavily to it, with specific proteins like `1299` assigning it an attention weight of `0.8266`.
+- **Biological Validation**: The heavy focus from neighbors aligns with the hub's critical role in multiple biological processes, confirming the GAT's ability to identify functional importance.
 
 ## 🛠️ Requirements
 
