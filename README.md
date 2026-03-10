@@ -4,7 +4,7 @@ This project explores the application of a **Late Fusion Graph Attention Network
 
 ## 🚀 Key Features
 
-- **Late Fusion GAT Architecture**: Implements the `LateFusionGAT` model, integrating multi-head attention (16 heads) with a multi-layer perceptron (MLP) for feature fusion and classification.
+- **Late Fusion GAT Architecture**: Implements the `LateFusionGAT` model, integrating multi-head attention (8 heads) with a multi-layer perceptron (MLP) for feature fusion and classification.
 - **Hierarchical Ontological Context**: Leverages `node2vec` embeddings of the **BRENDA Tissue Ontology (BTO)** to provide a global anatomical context for predictions across all 219 defined anatomical nodes.
 - **Efficient Data Handling**: Uses `LinkNeighborLoader` from PyTorch Geometric for scalable training on large-scale PPI graphs with batch-based neighborhood sampling.
 - **Hierarchical Constrained Loss**: Features a custom loss function with an adaptive penalty that enforces anatomical consistency, ensuring child tissue probabilities do not exceed their parent probabilities.
@@ -19,7 +19,7 @@ This project explores the application of a **Late Fusion Graph Attention Network
 ## 🔬 Methodology
 
 1. **Hierarchy Embedding**: The Brenda Tissue Ontology is modeled as a directed graph, and `Node2Vec` is applied to capture structural relationships between anatomical sites.
-2. **Data Correction & Propagation**: To resolve "Observation Bias"—where interactions were labeled in child tissues but omitted in parent organs—labels were propagated up the hierarchy. This increased global label density from **23.8% to 38.3%**, providing a robust training signal while maintaining a constant leaf node density of **30.57%**.
+2. **Data Correction & Propagation**: To resolve "Observation Bias" where interactions were labeled in child tissues but omitted in parent organs, labels were propagated up the hierarchy. This increased global label density from **23.8% to 38.3%**, providing a robust training signal while maintaining a constant leaf node density of **30.57%**.
 3. **Graph Sampling**: `LinkNeighborLoader` samples spatial neighborhoods, facilitating memory-efficient training on representative subgraphs.
 4. **Late Fusion Mechanism**: Models protein pair interactions using the GAT's contextual encoding, subsequently fusing these features with the hierarchical tissue "address" before final prediction.
 5. **Optimization**: Training utilizes a hierarchical-constrained loss function, **Adaptive Penalty Multipliers**, and **Early Stopping** (patience=50).
@@ -28,11 +28,11 @@ This project explores the application of a **Late Fusion Graph Attention Network
 
 The model significantly exceeds prior benchmarks and the initial project goal of 0.756 AUROC.
 
-- **Test Leaf AUROC**: `0.9928`
-- **Macro-AUPRC**: `0.9562`
-- **Macro-F1 Score**: `0.9031`
-- **Test Micro-F1 Score**: `0.9671`
-- **Hierarchical Violation Rate**: `0.51%` (Test Set)
+- **Test Leaf AUROC**: `0.9951`
+- **Macro-AUPRC**: `0.9736`
+- **Macro-F1 Score**: `0.9380`
+- **Test Micro-F1 Score**: `0.9788`
+- **Hierarchical Violation Rate**: `0.71%` (Test Set)
 
 *Note: These results reflect the 0.3 dropout configuration with GATv2Conv layers and an adaptive hierarchical penalty, which showed consistent superiority over standard GAT architecture.*
 
