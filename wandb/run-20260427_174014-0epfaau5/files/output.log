@@ -1,0 +1,646 @@
+Starting Adaptive Training (Target: <1%, Initial Lambda: 200)...
+--- Violation Threshold Exceeded (1.86%)! New Lambda: 220.00 ---
+Epoch 001 | BCE: 0.6376 | Pen: 0.000248
+Losses | Train: 0.6873 | Val: 0.5651
+--- Hierarchy Stable (0.05%). Lambda Fixed. ---
+Epoch 005 | BCE: 0.3281 | Pen: 0.000021
+Losses | Train: 0.3328 | Val: 0.3061
+--- Hierarchy Stable (0.10%). Lambda Fixed. ---
+Epoch 010 | BCE: 0.2863 | Pen: 0.000020
+Losses | Train: 0.2906 | Val: 0.2727
+--- Hierarchy Stable (0.32%). Lambda Fixed. ---
+Epoch 015 | BCE: 0.2597 | Pen: 0.000025
+Losses | Train: 0.2652 | Val: 0.2475
+--- Hierarchy Stable (0.38%). Lambda Fixed. ---
+Epoch 020 | BCE: 0.2389 | Pen: 0.000029
+Losses | Train: 0.2454 | Val: 0.2247
+--- Hierarchy Stable (0.57%). Lambda Fixed. ---
+Epoch 025 | BCE: 0.2239 | Pen: 0.000034
+Losses | Train: 0.2313 | Val: 0.2109
+--- Hierarchy Stable (0.67%). Lambda Fixed. ---
+Epoch 030 | BCE: 0.2120 | Pen: 0.000037
+Losses | Train: 0.2203 | Val: 0.1985
+--- Hierarchy Stable (0.80%). Lambda Fixed. ---
+Epoch 035 | BCE: 0.2028 | Pen: 0.000041
+Losses | Train: 0.2117 | Val: 0.1847
+--- Hierarchy Stable (0.96%). Lambda Fixed. ---
+Epoch 040 | BCE: 0.1938 | Pen: 0.000043
+Losses | Train: 0.2034 | Val: 0.1729
+--- Hierarchy Stable (0.98%). Lambda Fixed. ---
+Epoch 045 | BCE: 0.1857 | Pen: 0.000046
+Losses | Train: 0.1958 | Val: 0.1667
+--- Violation Threshold Exceeded (1.01%)! New Lambda: 242.00 ---
+Epoch 050 | BCE: 0.1804 | Pen: 0.000048
+Losses | Train: 0.1909 | Val: 0.1621
+--- Violation Threshold Exceeded (1.07%)! New Lambda: 266.20 ---
+Epoch 055 | BCE: 0.1760 | Pen: 0.000048
+Losses | Train: 0.1875 | Val: 0.1569
+--- Violation Threshold Exceeded (1.01%)! New Lambda: 292.82 ---
+Epoch 060 | BCE: 0.1721 | Pen: 0.000047
+Losses | Train: 0.1845 | Val: 0.1501
+--- Hierarchy Stable (0.90%). Lambda Fixed. ---
+Epoch 065 | BCE: 0.1671 | Pen: 0.000046
+Losses | Train: 0.1805 | Val: 0.1463
+--- Hierarchy Stable (0.80%). Lambda Fixed. ---
+Epoch 070 | BCE: 0.1647 | Pen: 0.000046
+Losses | Train: 0.1782 | Val: 0.1452
+--- Hierarchy Stable (0.98%). Lambda Fixed. ---
+Epoch 075 | BCE: 0.1607 | Pen: 0.000047
+Losses | Train: 0.1745 | Val: 0.1390
+--- Hierarchy Stable (0.93%). Lambda Fixed. ---
+Epoch 080 | BCE: 0.1580 | Pen: 0.000047
+Losses | Train: 0.1719 | Val: 0.1374
+--- Hierarchy Stable (0.91%). Lambda Fixed. ---
+Epoch 085 | BCE: 0.1559 | Pen: 0.000048
+Losses | Train: 0.1701 | Val: 0.1320
+--- Hierarchy Stable (0.88%). Lambda Fixed. ---
+Epoch 090 | BCE: 0.1524 | Pen: 0.000049
+Losses | Train: 0.1669 | Val: 0.1297
+--- Hierarchy Stable (0.90%). Lambda Fixed. ---
+Epoch 095 | BCE: 0.1507 | Pen: 0.000050
+Losses | Train: 0.1652 | Val: 0.1286
+--- Hierarchy Stable (0.94%). Lambda Fixed. ---
+Epoch 100 | BCE: 0.1487 | Pen: 0.000050
+Losses | Train: 0.1634 | Val: 0.1231
+--- Hierarchy Stable (0.88%). Lambda Fixed. ---
+Epoch 105 | BCE: 0.1463 | Pen: 0.000051
+Losses | Train: 0.1612 | Val: 0.1226
+--- Violation Threshold Exceeded (1.00%)! New Lambda: 300.00 ---
+Epoch 110 | BCE: 0.1429 | Pen: 0.000051
+Losses | Train: 0.1579 | Val: 0.1191
+--- Hierarchy Stable (0.96%). Lambda Fixed. ---
+Epoch 115 | BCE: 0.1422 | Pen: 0.000051
+Losses | Train: 0.1576 | Val: 0.1187
+--- Hierarchy Stable (0.90%). Lambda Fixed. ---
+Epoch 120 | BCE: 0.1422 | Pen: 0.000051
+Losses | Train: 0.1575 | Val: 0.1163
+--- Hierarchy Stable (0.85%). Lambda Fixed. ---
+Epoch 125 | BCE: 0.1402 | Pen: 0.000052
+Losses | Train: 0.1559 | Val: 0.1175
+--- Violation Threshold Exceeded (1.07%)! New Lambda: 300.00 ---
+Epoch 130 | BCE: 0.1386 | Pen: 0.000052
+Losses | Train: 0.1542 | Val: 0.1122
+--- Hierarchy Stable (0.85%). Lambda Fixed. ---
+Epoch 135 | BCE: 0.1382 | Pen: 0.000052
+Losses | Train: 0.1539 | Val: 0.1140
+--- Hierarchy Stable (0.90%). Lambda Fixed. ---
+Epoch 140 | BCE: 0.1358 | Pen: 0.000052
+Losses | Train: 0.1513 | Val: 0.1097
+--- Hierarchy Stable (0.86%). Lambda Fixed. ---
+Epoch 145 | BCE: 0.1345 | Pen: 0.000052
+Losses | Train: 0.1502 | Val: 0.1099
+--- Hierarchy Stable (0.89%). Lambda Fixed. ---
+Epoch 150 | BCE: 0.1338 | Pen: 0.000053
+Losses | Train: 0.1497 | Val: 0.1098
+--- Hierarchy Stable (0.86%). Lambda Fixed. ---
+Epoch 155 | BCE: 0.1343 | Pen: 0.000052
+Losses | Train: 0.1501 | Val: 0.1103
+--- Hierarchy Stable (0.92%). Lambda Fixed. ---
+Epoch 160 | BCE: 0.1329 | Pen: 0.000054
+Losses | Train: 0.1489 | Val: 0.1069
+--- Hierarchy Stable (0.82%). Lambda Fixed. ---
+Epoch 165 | BCE: 0.1309 | Pen: 0.000053
+Losses | Train: 0.1469 | Val: 0.1058
+--- Hierarchy Stable (0.83%). Lambda Fixed. ---
+Epoch 170 | BCE: 0.1315 | Pen: 0.000053
+Losses | Train: 0.1476 | Val: 0.1060
+--- Hierarchy Stable (0.69%). Lambda Fixed. ---
+Epoch 175 | BCE: 0.1301 | Pen: 0.000053
+Losses | Train: 0.1460 | Val: 0.1052
+--- Hierarchy Stable (0.72%). Lambda Fixed. ---
+Epoch 180 | BCE: 0.1290 | Pen: 0.000054
+Losses | Train: 0.1453 | Val: 0.1041
+--- Hierarchy Stable (0.81%). Lambda Fixed. ---
+Epoch 185 | BCE: 0.1280 | Pen: 0.000054
+Losses | Train: 0.1441 | Val: 0.1041
+--- Hierarchy Stable (0.62%). Lambda Fixed. ---
+Epoch 190 | BCE: 0.1280 | Pen: 0.000053
+Losses | Train: 0.1439 | Val: 0.1007
+--- Hierarchy Stable (0.70%). Lambda Fixed. ---
+Epoch 195 | BCE: 0.1277 | Pen: 0.000054
+Losses | Train: 0.1440 | Val: 0.1019
+--- Hierarchy Stable (0.56%). Lambda Fixed. ---
+Epoch 200 | BCE: 0.1251 | Pen: 0.000054
+Losses | Train: 0.1412 | Val: 0.1032
+--- Hierarchy Stable (0.47%). Lambda Fixed. ---
+Epoch 205 | BCE: 0.1247 | Pen: 0.000054
+Losses | Train: 0.1410 | Val: 0.1024
+--- Hierarchy Stable (0.60%). Lambda Fixed. ---
+Epoch 210 | BCE: 0.1249 | Pen: 0.000054
+Losses | Train: 0.1411 | Val: 0.0986
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 215 | BCE: 0.1243 | Pen: 0.000055
+Losses | Train: 0.1407 | Val: 0.0990
+--- Hierarchy Stable (0.50%). Lambda Fixed. ---
+Epoch 220 | BCE: 0.1247 | Pen: 0.000054
+Losses | Train: 0.1411 | Val: 0.0996
+--- Hierarchy Stable (0.60%). Lambda Fixed. ---
+Epoch 225 | BCE: 0.1219 | Pen: 0.000055
+Losses | Train: 0.1383 | Val: 0.0970
+--- Hierarchy Stable (0.48%). Lambda Fixed. ---
+Epoch 230 | BCE: 0.1230 | Pen: 0.000054
+Losses | Train: 0.1394 | Val: 0.0976
+--- Hierarchy Stable (0.50%). Lambda Fixed. ---
+Epoch 235 | BCE: 0.1218 | Pen: 0.000055
+Losses | Train: 0.1383 | Val: 0.0993
+--- Hierarchy Stable (0.51%). Lambda Fixed. ---
+Epoch 240 | BCE: 0.1228 | Pen: 0.000056
+Losses | Train: 0.1395 | Val: 0.0974
+--- Hierarchy Stable (0.45%). Lambda Fixed. ---
+Epoch 245 | BCE: 0.1209 | Pen: 0.000055
+Losses | Train: 0.1374 | Val: 0.0970
+--- Hierarchy Stable (0.49%). Lambda Fixed. ---
+Epoch 250 | BCE: 0.1200 | Pen: 0.000054
+Losses | Train: 0.1364 | Val: 0.0932
+--- Hierarchy Stable (0.49%). Lambda Fixed. ---
+Epoch 255 | BCE: 0.1195 | Pen: 0.000055
+Losses | Train: 0.1360 | Val: 0.0930
+--- Hierarchy Stable (0.56%). Lambda Fixed. ---
+Epoch 260 | BCE: 0.1190 | Pen: 0.000055
+Losses | Train: 0.1355 | Val: 0.0954
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 265 | BCE: 0.1187 | Pen: 0.000055
+Losses | Train: 0.1354 | Val: 0.0939
+--- Hierarchy Stable (0.43%). Lambda Fixed. ---
+Epoch 270 | BCE: 0.1200 | Pen: 0.000055
+Losses | Train: 0.1367 | Val: 0.0936
+--- Hierarchy Stable (0.47%). Lambda Fixed. ---
+Epoch 275 | BCE: 0.1186 | Pen: 0.000055
+Losses | Train: 0.1352 | Val: 0.0940
+--- Hierarchy Stable (0.45%). Lambda Fixed. ---
+Epoch 280 | BCE: 0.1192 | Pen: 0.000056
+Losses | Train: 0.1359 | Val: 0.0966
+--- Hierarchy Stable (0.39%). Lambda Fixed. ---
+Epoch 285 | BCE: 0.1174 | Pen: 0.000056
+Losses | Train: 0.1341 | Val: 0.0925
+--- Hierarchy Stable (0.34%). Lambda Fixed. ---
+Epoch 290 | BCE: 0.1166 | Pen: 0.000055
+Losses | Train: 0.1330 | Val: 0.0910
+--- Hierarchy Stable (0.45%). Lambda Fixed. ---
+Epoch 295 | BCE: 0.1174 | Pen: 0.000055
+Losses | Train: 0.1340 | Val: 0.0916
+--- Hierarchy Stable (0.38%). Lambda Fixed. ---
+Epoch 300 | BCE: 0.1157 | Pen: 0.000056
+Losses | Train: 0.1325 | Val: 0.0926
+--- Hierarchy Stable (0.37%). Lambda Fixed. ---
+Epoch 305 | BCE: 0.1151 | Pen: 0.000056
+Losses | Train: 0.1319 | Val: 0.0906
+--- Hierarchy Stable (0.54%). Lambda Fixed. ---
+Epoch 310 | BCE: 0.1154 | Pen: 0.000055
+Losses | Train: 0.1320 | Val: 0.0900
+--- Hierarchy Stable (0.38%). Lambda Fixed. ---
+Epoch 315 | BCE: 0.1141 | Pen: 0.000056
+Losses | Train: 0.1309 | Val: 0.0911
+--- Hierarchy Stable (0.44%). Lambda Fixed. ---
+Epoch 320 | BCE: 0.1138 | Pen: 0.000055
+Losses | Train: 0.1304 | Val: 0.0895
+--- Hierarchy Stable (0.35%). Lambda Fixed. ---
+Epoch 325 | BCE: 0.1133 | Pen: 0.000057
+Losses | Train: 0.1303 | Val: 0.0893
+--- Hierarchy Stable (0.50%). Lambda Fixed. ---
+Epoch 330 | BCE: 0.1134 | Pen: 0.000056
+Losses | Train: 0.1301 | Val: 0.0900
+--- Hierarchy Stable (0.44%). Lambda Fixed. ---
+Epoch 335 | BCE: 0.1137 | Pen: 0.000057
+Losses | Train: 0.1307 | Val: 0.0904
+--- Hierarchy Stable (0.49%). Lambda Fixed. ---
+Epoch 340 | BCE: 0.1141 | Pen: 0.000056
+Losses | Train: 0.1310 | Val: 0.0919
+--- Hierarchy Stable (0.44%). Lambda Fixed. ---
+Epoch 345 | BCE: 0.1119 | Pen: 0.000056
+Losses | Train: 0.1286 | Val: 0.0907
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 350 | BCE: 0.1123 | Pen: 0.000057
+Losses | Train: 0.1294 | Val: 0.0883
+--- Hierarchy Stable (0.40%). Lambda Fixed. ---
+Epoch 355 | BCE: 0.1126 | Pen: 0.000056
+Losses | Train: 0.1295 | Val: 0.0883
+--- Hierarchy Stable (0.49%). Lambda Fixed. ---
+Epoch 360 | BCE: 0.1116 | Pen: 0.000056
+Losses | Train: 0.1283 | Val: 0.0880
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 365 | BCE: 0.1122 | Pen: 0.000056
+Losses | Train: 0.1291 | Val: 0.0858
+--- Hierarchy Stable (0.52%). Lambda Fixed. ---
+Epoch 370 | BCE: 0.1109 | Pen: 0.000056
+Losses | Train: 0.1278 | Val: 0.0885
+--- Hierarchy Stable (0.54%). Lambda Fixed. ---
+Epoch 375 | BCE: 0.1113 | Pen: 0.000057
+Losses | Train: 0.1283 | Val: 0.0882
+--- Hierarchy Stable (0.53%). Lambda Fixed. ---
+Epoch 380 | BCE: 0.1112 | Pen: 0.000056
+Losses | Train: 0.1281 | Val: 0.0869
+--- Hierarchy Stable (0.44%). Lambda Fixed. ---
+Epoch 385 | BCE: 0.1112 | Pen: 0.000056
+Losses | Train: 0.1281 | Val: 0.0863
+--- Hierarchy Stable (0.49%). Lambda Fixed. ---
+Epoch 390 | BCE: 0.1103 | Pen: 0.000056
+Losses | Train: 0.1271 | Val: 0.0870
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 395 | BCE: 0.1109 | Pen: 0.000057
+Losses | Train: 0.1279 | Val: 0.0890
+--- Hierarchy Stable (0.42%). Lambda Fixed. ---
+Epoch 400 | BCE: 0.1097 | Pen: 0.000056
+Losses | Train: 0.1266 | Val: 0.0865
+--- Hierarchy Stable (0.43%). Lambda Fixed. ---
+Epoch 405 | BCE: 0.1094 | Pen: 0.000056
+Losses | Train: 0.1262 | Val: 0.0848
+--- Hierarchy Stable (0.52%). Lambda Fixed. ---
+Epoch 410 | BCE: 0.1097 | Pen: 0.000057
+Losses | Train: 0.1267 | Val: 0.0851
+--- Hierarchy Stable (0.36%). Lambda Fixed. ---
+Epoch 415 | BCE: 0.1095 | Pen: 0.000057
+Losses | Train: 0.1265 | Val: 0.0842
+--- Hierarchy Stable (0.54%). Lambda Fixed. ---
+Epoch 420 | BCE: 0.1103 | Pen: 0.000057
+Losses | Train: 0.1274 | Val: 0.0848
+--- Hierarchy Stable (0.47%). Lambda Fixed. ---
+Epoch 425 | BCE: 0.1096 | Pen: 0.000057
+Losses | Train: 0.1266 | Val: 0.0869
+--- Hierarchy Stable (0.61%). Lambda Fixed. ---
+Epoch 430 | BCE: 0.1092 | Pen: 0.000056
+Losses | Train: 0.1261 | Val: 0.0840
+--- Hierarchy Stable (0.42%). Lambda Fixed. ---
+Epoch 435 | BCE: 0.1086 | Pen: 0.000057
+Losses | Train: 0.1257 | Val: 0.0841
+--- Hierarchy Stable (0.42%). Lambda Fixed. ---
+Epoch 440 | BCE: 0.1075 | Pen: 0.000056
+Losses | Train: 0.1244 | Val: 0.0833
+--- Hierarchy Stable (0.41%). Lambda Fixed. ---
+Epoch 445 | BCE: 0.1088 | Pen: 0.000058
+Losses | Train: 0.1261 | Val: 0.0847
+--- Hierarchy Stable (0.49%). Lambda Fixed. ---
+Epoch 450 | BCE: 0.1080 | Pen: 0.000057
+Losses | Train: 0.1251 | Val: 0.0837
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 455 | BCE: 0.1079 | Pen: 0.000057
+Losses | Train: 0.1250 | Val: 0.0835
+--- Hierarchy Stable (0.55%). Lambda Fixed. ---
+Epoch 460 | BCE: 0.1076 | Pen: 0.000057
+Losses | Train: 0.1248 | Val: 0.0868
+--- Hierarchy Stable (0.47%). Lambda Fixed. ---
+Epoch 465 | BCE: 0.1073 | Pen: 0.000057
+Losses | Train: 0.1244 | Val: 0.0834
+--- Hierarchy Stable (0.47%). Lambda Fixed. ---
+Epoch 470 | BCE: 0.1070 | Pen: 0.000058
+Losses | Train: 0.1244 | Val: 0.0841
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 475 | BCE: 0.1052 | Pen: 0.000057
+Losses | Train: 0.1224 | Val: 0.0835
+--- Hierarchy Stable (0.56%). Lambda Fixed. ---
+Epoch 480 | BCE: 0.1065 | Pen: 0.000058
+Losses | Train: 0.1238 | Val: 0.0834
+--- Hierarchy Stable (0.61%). Lambda Fixed. ---
+Epoch 485 | BCE: 0.1056 | Pen: 0.000057
+Losses | Train: 0.1225 | Val: 0.0836
+--- Hierarchy Stable (0.52%). Lambda Fixed. ---
+Epoch 490 | BCE: 0.1060 | Pen: 0.000058
+Losses | Train: 0.1232 | Val: 0.0829
+--- Hierarchy Stable (0.37%). Lambda Fixed. ---
+Epoch 495 | BCE: 0.1070 | Pen: 0.000058
+Losses | Train: 0.1243 | Val: 0.0832
+--- Hierarchy Stable (0.43%). Lambda Fixed. ---
+Epoch 500 | BCE: 0.1049 | Pen: 0.000057
+Losses | Train: 0.1220 | Val: 0.0822
+--- Hierarchy Stable (0.42%). Lambda Fixed. ---
+Epoch 505 | BCE: 0.1058 | Pen: 0.000058
+Losses | Train: 0.1233 | Val: 0.0831
+--- Hierarchy Stable (0.48%). Lambda Fixed. ---
+Epoch 510 | BCE: 0.1043 | Pen: 0.000057
+Losses | Train: 0.1215 | Val: 0.0812
+--- Hierarchy Stable (0.50%). Lambda Fixed. ---
+Epoch 515 | BCE: 0.1046 | Pen: 0.000058
+Losses | Train: 0.1219 | Val: 0.0818
+--- Hierarchy Stable (0.47%). Lambda Fixed. ---
+Epoch 520 | BCE: 0.1055 | Pen: 0.000058
+Losses | Train: 0.1229 | Val: 0.0814
+--- Hierarchy Stable (0.35%). Lambda Fixed. ---
+Epoch 525 | BCE: 0.1048 | Pen: 0.000058
+Losses | Train: 0.1222 | Val: 0.0818
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 530 | BCE: 0.1055 | Pen: 0.000057
+Losses | Train: 0.1225 | Val: 0.0809
+--- Hierarchy Stable (0.43%). Lambda Fixed. ---
+Epoch 535 | BCE: 0.1047 | Pen: 0.000058
+Losses | Train: 0.1220 | Val: 0.0823
+--- Hierarchy Stable (0.43%). Lambda Fixed. ---
+Epoch 540 | BCE: 0.1051 | Pen: 0.000058
+Losses | Train: 0.1225 | Val: 0.0812
+--- Hierarchy Stable (0.52%). Lambda Fixed. ---
+Epoch 545 | BCE: 0.1039 | Pen: 0.000058
+Losses | Train: 0.1214 | Val: 0.0825
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 550 | BCE: 0.1035 | Pen: 0.000058
+Losses | Train: 0.1208 | Val: 0.0808
+--- Hierarchy Stable (0.55%). Lambda Fixed. ---
+Epoch 555 | BCE: 0.1045 | Pen: 0.000058
+Losses | Train: 0.1220 | Val: 0.0823
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 560 | BCE: 0.1047 | Pen: 0.000057
+Losses | Train: 0.1219 | Val: 0.0825
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 565 | BCE: 0.1042 | Pen: 0.000058
+Losses | Train: 0.1216 | Val: 0.0803
+--- Hierarchy Stable (0.48%). Lambda Fixed. ---
+Epoch 570 | BCE: 0.1035 | Pen: 0.000058
+Losses | Train: 0.1208 | Val: 0.0810
+--- Hierarchy Stable (0.42%). Lambda Fixed. ---
+Epoch 575 | BCE: 0.1042 | Pen: 0.000058
+Losses | Train: 0.1217 | Val: 0.0812
+--- Hierarchy Stable (0.38%). Lambda Fixed. ---
+Epoch 580 | BCE: 0.1056 | Pen: 0.000059
+Losses | Train: 0.1232 | Val: 0.0813
+--- Hierarchy Stable (0.38%). Lambda Fixed. ---
+Epoch 585 | BCE: 0.1056 | Pen: 0.000058
+Losses | Train: 0.1230 | Val: 0.0807
+--- Hierarchy Stable (0.42%). Lambda Fixed. ---
+Epoch 590 | BCE: 0.1031 | Pen: 0.000058
+Losses | Train: 0.1206 | Val: 0.0825
+--- Hierarchy Stable (0.30%). Lambda Fixed. ---
+Epoch 595 | BCE: 0.1027 | Pen: 0.000058
+Losses | Train: 0.1201 | Val: 0.0803
+--- Hierarchy Stable (0.40%). Lambda Fixed. ---
+Epoch 600 | BCE: 0.1022 | Pen: 0.000058
+Losses | Train: 0.1196 | Val: 0.0801
+--- Hierarchy Stable (0.49%). Lambda Fixed. ---
+Epoch 605 | BCE: 0.1036 | Pen: 0.000058
+Losses | Train: 0.1210 | Val: 0.0811
+--- Hierarchy Stable (0.44%). Lambda Fixed. ---
+Epoch 610 | BCE: 0.1029 | Pen: 0.000059
+Losses | Train: 0.1206 | Val: 0.0816
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 615 | BCE: 0.1022 | Pen: 0.000058
+Losses | Train: 0.1197 | Val: 0.0790
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 620 | BCE: 0.1034 | Pen: 0.000058
+Losses | Train: 0.1207 | Val: 0.0806
+--- Hierarchy Stable (0.40%). Lambda Fixed. ---
+Epoch 625 | BCE: 0.1028 | Pen: 0.000059
+Losses | Train: 0.1205 | Val: 0.0791
+--- Hierarchy Stable (0.40%). Lambda Fixed. ---
+Epoch 630 | BCE: 0.1020 | Pen: 0.000058
+Losses | Train: 0.1195 | Val: 0.0792
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 635 | BCE: 0.1028 | Pen: 0.000058
+Losses | Train: 0.1202 | Val: 0.0823
+--- Hierarchy Stable (0.41%). Lambda Fixed. ---
+Epoch 640 | BCE: 0.1022 | Pen: 0.000058
+Losses | Train: 0.1197 | Val: 0.0805
+--- Hierarchy Stable (0.52%). Lambda Fixed. ---
+Epoch 645 | BCE: 0.1012 | Pen: 0.000058
+Losses | Train: 0.1185 | Val: 0.0793
+--- Hierarchy Stable (0.47%). Lambda Fixed. ---
+Epoch 650 | BCE: 0.1015 | Pen: 0.000059
+Losses | Train: 0.1191 | Val: 0.0799
+--- Hierarchy Stable (0.53%). Lambda Fixed. ---
+Epoch 655 | BCE: 0.1014 | Pen: 0.000058
+Losses | Train: 0.1190 | Val: 0.0789
+--- Hierarchy Stable (0.41%). Lambda Fixed. ---
+Epoch 660 | BCE: 0.1010 | Pen: 0.000058
+Losses | Train: 0.1185 | Val: 0.0799
+--- Hierarchy Stable (0.43%). Lambda Fixed. ---
+Epoch 665 | BCE: 0.0999 | Pen: 0.000059
+Losses | Train: 0.1176 | Val: 0.0784
+--- Hierarchy Stable (0.55%). Lambda Fixed. ---
+Epoch 670 | BCE: 0.1010 | Pen: 0.000058
+Losses | Train: 0.1185 | Val: 0.0783
+--- Hierarchy Stable (0.40%). Lambda Fixed. ---
+Epoch 675 | BCE: 0.1007 | Pen: 0.000059
+Losses | Train: 0.1186 | Val: 0.0808
+--- Hierarchy Stable (0.58%). Lambda Fixed. ---
+Epoch 680 | BCE: 0.1013 | Pen: 0.000059
+Losses | Train: 0.1189 | Val: 0.0802
+--- Hierarchy Stable (0.36%). Lambda Fixed. ---
+Epoch 685 | BCE: 0.0996 | Pen: 0.000059
+Losses | Train: 0.1173 | Val: 0.0794
+--- Hierarchy Stable (0.58%). Lambda Fixed. ---
+Epoch 690 | BCE: 0.1017 | Pen: 0.000059
+Losses | Train: 0.1193 | Val: 0.0791
+--- Hierarchy Stable (0.51%). Lambda Fixed. ---
+Epoch 695 | BCE: 0.1018 | Pen: 0.000059
+Losses | Train: 0.1195 | Val: 0.0801
+--- Hierarchy Stable (0.48%). Lambda Fixed. ---
+Epoch 700 | BCE: 0.1012 | Pen: 0.000059
+Losses | Train: 0.1190 | Val: 0.0805
+--- Hierarchy Stable (0.39%). Lambda Fixed. ---
+Epoch 705 | BCE: 0.0993 | Pen: 0.000059
+Losses | Train: 0.1171 | Val: 0.0778
+--- Hierarchy Stable (0.51%). Lambda Fixed. ---
+Epoch 710 | BCE: 0.1014 | Pen: 0.000059
+Losses | Train: 0.1189 | Val: 0.0782
+--- Hierarchy Stable (0.48%). Lambda Fixed. ---
+Epoch 715 | BCE: 0.1005 | Pen: 0.000059
+Losses | Train: 0.1181 | Val: 0.0799
+--- Hierarchy Stable (0.38%). Lambda Fixed. ---
+Epoch 720 | BCE: 0.1004 | Pen: 0.000059
+Losses | Train: 0.1179 | Val: 0.0799
+--- Hierarchy Stable (0.37%). Lambda Fixed. ---
+Epoch 725 | BCE: 0.1009 | Pen: 0.000059
+Losses | Train: 0.1185 | Val: 0.0790
+--- Hierarchy Stable (0.36%). Lambda Fixed. ---
+Epoch 730 | BCE: 0.1000 | Pen: 0.000059
+Losses | Train: 0.1177 | Val: 0.0788
+--- Hierarchy Stable (0.44%). Lambda Fixed. ---
+Epoch 735 | BCE: 0.1011 | Pen: 0.000059
+Losses | Train: 0.1188 | Val: 0.0783
+--- Hierarchy Stable (0.40%). Lambda Fixed. ---
+Epoch 740 | BCE: 0.0992 | Pen: 0.000058
+Losses | Train: 0.1168 | Val: 0.0793
+--- Hierarchy Stable (0.37%). Lambda Fixed. ---
+Epoch 745 | BCE: 0.1007 | Pen: 0.000058
+Losses | Train: 0.1182 | Val: 0.0770
+--- Hierarchy Stable (0.51%). Lambda Fixed. ---
+Epoch 750 | BCE: 0.1017 | Pen: 0.000059
+Losses | Train: 0.1195 | Val: 0.0821
+--- Hierarchy Stable (0.45%). Lambda Fixed. ---
+Epoch 755 | BCE: 0.1020 | Pen: 0.000060
+Losses | Train: 0.1199 | Val: 0.0825
+--- Hierarchy Stable (0.39%). Lambda Fixed. ---
+Epoch 760 | BCE: 0.0995 | Pen: 0.000060
+Losses | Train: 0.1176 | Val: 0.0804
+--- Hierarchy Stable (0.42%). Lambda Fixed. ---
+Epoch 765 | BCE: 0.1003 | Pen: 0.000059
+Losses | Train: 0.1180 | Val: 0.0782
+--- Hierarchy Stable (0.51%). Lambda Fixed. ---
+Epoch 770 | BCE: 0.1001 | Pen: 0.000059
+Losses | Train: 0.1176 | Val: 0.0788
+--- Hierarchy Stable (0.58%). Lambda Fixed. ---
+Epoch 775 | BCE: 0.1000 | Pen: 0.000059
+Losses | Train: 0.1177 | Val: 0.0790
+--- Hierarchy Stable (0.39%). Lambda Fixed. ---
+Epoch 780 | BCE: 0.0975 | Pen: 0.000059
+Losses | Train: 0.1152 | Val: 0.0774
+--- Hierarchy Stable (0.56%). Lambda Fixed. ---
+Epoch 785 | BCE: 0.0976 | Pen: 0.000059
+Losses | Train: 0.1153 | Val: 0.0782
+--- Hierarchy Stable (0.39%). Lambda Fixed. ---
+Epoch 790 | BCE: 0.0994 | Pen: 0.000059
+Losses | Train: 0.1171 | Val: 0.0780
+--- Hierarchy Stable (0.39%). Lambda Fixed. ---
+Epoch 795 | BCE: 0.0996 | Pen: 0.000059
+Losses | Train: 0.1172 | Val: 0.0771
+--- Hierarchy Stable (0.47%). Lambda Fixed. ---
+Epoch 800 | BCE: 0.0984 | Pen: 0.000059
+Losses | Train: 0.1160 | Val: 0.0777
+--- Hierarchy Stable (0.37%). Lambda Fixed. ---
+Epoch 805 | BCE: 0.0999 | Pen: 0.000059
+Losses | Train: 0.1176 | Val: 0.0779
+--- Hierarchy Stable (0.45%). Lambda Fixed. ---
+Epoch 810 | BCE: 0.0970 | Pen: 0.000058
+Losses | Train: 0.1146 | Val: 0.0765
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 815 | BCE: 0.0978 | Pen: 0.000059
+Losses | Train: 0.1156 | Val: 0.0770
+--- Hierarchy Stable (0.45%). Lambda Fixed. ---
+Epoch 820 | BCE: 0.0993 | Pen: 0.000059
+Losses | Train: 0.1170 | Val: 0.0770
+--- Hierarchy Stable (0.58%). Lambda Fixed. ---
+Epoch 825 | BCE: 0.0977 | Pen: 0.000059
+Losses | Train: 0.1155 | Val: 0.0779
+--- Hierarchy Stable (0.39%). Lambda Fixed. ---
+Epoch 830 | BCE: 0.0994 | Pen: 0.000060
+Losses | Train: 0.1174 | Val: 0.0788
+--- Hierarchy Stable (0.39%). Lambda Fixed. ---
+Epoch 835 | BCE: 0.0971 | Pen: 0.000060
+Losses | Train: 0.1150 | Val: 0.0784
+--- Hierarchy Stable (0.42%). Lambda Fixed. ---
+Epoch 840 | BCE: 0.0984 | Pen: 0.000059
+Losses | Train: 0.1161 | Val: 0.0773
+--- Hierarchy Stable (0.39%). Lambda Fixed. ---
+Epoch 845 | BCE: 0.0977 | Pen: 0.000060
+Losses | Train: 0.1156 | Val: 0.0774
+--- Hierarchy Stable (0.36%). Lambda Fixed. ---
+Epoch 850 | BCE: 0.0968 | Pen: 0.000059
+Losses | Train: 0.1146 | Val: 0.0765
+--- Hierarchy Stable (0.49%). Lambda Fixed. ---
+Epoch 855 | BCE: 0.0984 | Pen: 0.000060
+Losses | Train: 0.1165 | Val: 0.0759
+--- Hierarchy Stable (0.48%). Lambda Fixed. ---
+Epoch 860 | BCE: 0.0971 | Pen: 0.000059
+Losses | Train: 0.1149 | Val: 0.0782
+--- Hierarchy Stable (0.48%). Lambda Fixed. ---
+Epoch 865 | BCE: 0.0982 | Pen: 0.000059
+Losses | Train: 0.1160 | Val: 0.0772
+--- Hierarchy Stable (0.50%). Lambda Fixed. ---
+Epoch 870 | BCE: 0.0978 | Pen: 0.000060
+Losses | Train: 0.1158 | Val: 0.0770
+--- Hierarchy Stable (0.47%). Lambda Fixed. ---
+Epoch 875 | BCE: 0.0969 | Pen: 0.000059
+Losses | Train: 0.1147 | Val: 0.0765
+--- Hierarchy Stable (0.44%). Lambda Fixed. ---
+Epoch 880 | BCE: 0.0975 | Pen: 0.000060
+Losses | Train: 0.1155 | Val: 0.0768
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 885 | BCE: 0.0969 | Pen: 0.000059
+Losses | Train: 0.1147 | Val: 0.0769
+--- Hierarchy Stable (0.38%). Lambda Fixed. ---
+Epoch 890 | BCE: 0.0965 | Pen: 0.000059
+Losses | Train: 0.1142 | Val: 0.0764
+--- Hierarchy Stable (0.49%). Lambda Fixed. ---
+Epoch 895 | BCE: 0.0966 | Pen: 0.000060
+Losses | Train: 0.1145 | Val: 0.0779
+--- Hierarchy Stable (0.31%). Lambda Fixed. ---
+Epoch 900 | BCE: 0.0970 | Pen: 0.000059
+Losses | Train: 0.1147 | Val: 0.0762
+--- Hierarchy Stable (0.38%). Lambda Fixed. ---
+Epoch 905 | BCE: 0.0980 | Pen: 0.000060
+Losses | Train: 0.1160 | Val: 0.0776
+--- Hierarchy Stable (0.46%). Lambda Fixed. ---
+Epoch 910 | BCE: 0.0971 | Pen: 0.000060
+Losses | Train: 0.1150 | Val: 0.0773
+--- Hierarchy Stable (0.33%). Lambda Fixed. ---
+Epoch 915 | BCE: 0.0977 | Pen: 0.000060
+Losses | Train: 0.1158 | Val: 0.0778
+--- Hierarchy Stable (0.45%). Lambda Fixed. ---
+Epoch 920 | BCE: 0.0969 | Pen: 0.000059
+Losses | Train: 0.1146 | Val: 0.0772
+--- Hierarchy Stable (0.48%). Lambda Fixed. ---
+Epoch 925 | BCE: 0.0975 | Pen: 0.000060
+Losses | Train: 0.1155 | Val: 0.0783
+--- Hierarchy Stable (0.52%). Lambda Fixed. ---
+Epoch 930 | BCE: 0.0966 | Pen: 0.000059
+Losses | Train: 0.1144 | Val: 0.0784
+--- Hierarchy Stable (0.37%). Lambda Fixed. ---
+Epoch 935 | BCE: 0.0967 | Pen: 0.000060
+Losses | Train: 0.1146 | Val: 0.0765
+--- Hierarchy Stable (0.44%). Lambda Fixed. ---
+Epoch 940 | BCE: 0.0963 | Pen: 0.000059
+Losses | Train: 0.1140 | Val: 0.0759
+--- Hierarchy Stable (0.40%). Lambda Fixed. ---
+Epoch 945 | BCE: 0.0971 | Pen: 0.000060
+Losses | Train: 0.1150 | Val: 0.0783
+--- Hierarchy Stable (0.45%). Lambda Fixed. ---
+Epoch 950 | BCE: 0.0961 | Pen: 0.000060
+Losses | Train: 0.1140 | Val: 0.0772
+--- Hierarchy Stable (0.38%). Lambda Fixed. ---
+Epoch 955 | BCE: 0.0964 | Pen: 0.000059
+Losses | Train: 0.1141 | Val: 0.0754
+--- Hierarchy Stable (0.52%). Lambda Fixed. ---
+Epoch 960 | BCE: 0.0961 | Pen: 0.000060
+Losses | Train: 0.1142 | Val: 0.0763
+Early stopping at epoch 961!
+Saved attention coefficients from 14 batches.
+Loading weights from best_model.pt...
+Model loaded and ready for testing!
+Collecting predictions for 5627 validation edges...
+Optimizing threshold based on VALIDATION data...
+Optimal Threshold found on local validation: 0.37
+
+Collecting predictions for 14068 test edges...
+--- Final Evaluation Results (107 leaf tissues) ---
+Macro-AUROC: 0.9945
+Macro-AUPRC: 0.9734
+Macro-F1 (using val-set threshold 0.37): 0.9311
+
+--- Prevalence-Weighted Results ---
+Weighted-AUROC: 0.9959
+Weighted-AUPRC: 0.9891
+Weighted-F1: 0.9635
+
+NOTE: These results are now scientifically valid as threshold optimization leakage has been fixed.
+Comparison with OhmNet (0.756 AUROC) should be done with caution due to dataset/sampling differences.
+
+Generating Global Confusion Matrix for Leaf Tissues...
+Total True Positives (Hits): 445,364
+Total False Positives (Type I Error): 20,007
+Total False Negatives (Misses): 13,611
+Precision: 0.9570
+Recall: 0.9703
+Micro-F1: 0.9636
+
+=> Final metrics successfully saved to WandB Summary!
+Hub Protein 1956 has 458 unique actual neighbors.
+
+Top 10 Neighbors Attended to by 1956
+---------------------------------------------
+Neighbor Protein     | Attention Weight
+---------------------------------------------
+351                  | 0.0109
+5796                 | 0.0103
+1956                 | 0.0103
+5581                 | 0.0097
+2885                 | 0.0096
+1499                 | 0.0095
+4734                 | 0.0093
+7184                 | 0.0089
+2064                 | 0.0088
+5578                 | 0.0086
+Hub Protein 1956 has 458 unique actual neighbors.
+
+Top 10 Neighbors Attended to by 1956
+---------------------------------------------
+Neighbor Protein     | Attention Weight
+---------------------------------------------
+351                  | 0.0109
+5796                 | 0.0103
+1956                 | 0.0103
+5581                 | 0.0097
+2885                 | 0.0096
+1499                 | 0.0095
+4734                 | 0.0093
+7184                 | 0.0089
+2064                 | 0.0088
+5578                 | 0.0086
+--- Model Hierarchical Performance (Test Set) ---
+Violation Rate: 0.36%
+Violations: 11,128 / 3,066,824

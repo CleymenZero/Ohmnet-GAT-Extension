@@ -1,0 +1,42 @@
+{"time":"2026-04-27T17:40:14.3924213-04:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2026-04-27T17:40:14.3924213-04:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\steve\\Documents\\ML Workspace\\Ohmnet GAT Extension\\wandb\\run-20260427_174014-0epfaau5\\logs\\debug-core.log"}
+{"time":"2026-04-27T17:40:14.5047591-04:00","level":"INFO","msg":"created new stream","id":"0epfaau5"}
+{"time":"2026-04-27T17:40:14.5047591-04:00","level":"INFO","msg":"stream: started","id":"0epfaau5"}
+{"time":"2026-04-27T17:40:14.5047591-04:00","level":"INFO","msg":"handler: started","stream_id":"0epfaau5"}
+{"time":"2026-04-27T17:40:14.5047591-04:00","level":"INFO","msg":"sender: started","stream_id":"0epfaau5"}
+{"time":"2026-04-27T17:40:14.5047591-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"0epfaau5"}
+{"time":"2026-04-27T17:40:14.9232949-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-04-27T17:40:15.288842-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T17:40:15.3004545-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T17:40:24.9236515-04:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2026-04-27T19:33:03.3020228-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T19:33:03.3199368-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T19:33:04.7216532-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T19:59:08.3203578-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T19:59:09.1025038-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T19:59:09.1288318-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T19:59:09.2321374-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T19:59:09.243168-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T19:59:09.3833353-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T19:59:09.3923654-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T19:59:09.4286988-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T19:59:09.4459581-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T19:59:16.8245162-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T19:59:16.8388087-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T19:59:17.7349164-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T20:00:42.9006054-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T20:00:43.9303903-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T20:00:43.9657525-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T20:00:44.0875128-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T20:00:44.0973082-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T20:00:44.7336028-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T20:00:44.8153577-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T20:00:44.8167934-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-04-27T20:00:44.8183702-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-04-27T20:00:45.8277462-04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.6116245}],"total_operations":1}}
+{"time":"2026-04-27T20:00:47.1367042-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-04-27T20:00:48.3373024-04:00","level":"INFO","msg":"stream: closing","id":"0epfaau5"}
+{"time":"2026-04-27T20:00:48.3373024-04:00","level":"INFO","msg":"handler: closed","stream_id":"0epfaau5"}
+{"time":"2026-04-27T20:00:48.3373024-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0epfaau5"}
+{"time":"2026-04-27T20:00:48.3373024-04:00","level":"INFO","msg":"sender: closed","stream_id":"0epfaau5"}
+{"time":"2026-04-27T20:00:48.3373024-04:00","level":"INFO","msg":"stream: closed","id":"0epfaau5"}

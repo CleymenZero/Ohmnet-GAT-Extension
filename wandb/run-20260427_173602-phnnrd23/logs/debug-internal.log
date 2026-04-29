@@ -1,0 +1,18 @@
+{"time":"2026-04-27T17:36:02.7203431-04:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2026-04-27T17:36:02.7203431-04:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\steve\\Documents\\ML Workspace\\Ohmnet GAT Extension\\wandb\\run-20260427_173602-phnnrd23\\logs\\debug-core.log"}
+{"time":"2026-04-27T17:36:03.036121-04:00","level":"INFO","msg":"created new stream","id":"phnnrd23"}
+{"time":"2026-04-27T17:36:03.036121-04:00","level":"INFO","msg":"stream: started","id":"phnnrd23"}
+{"time":"2026-04-27T17:36:03.0366423-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"phnnrd23"}
+{"time":"2026-04-27T17:36:03.0366423-04:00","level":"INFO","msg":"handler: started","stream_id":"phnnrd23"}
+{"time":"2026-04-27T17:36:03.0366423-04:00","level":"INFO","msg":"sender: started","stream_id":"phnnrd23"}
+{"time":"2026-04-27T17:36:03.5648213-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-04-27T17:36:03.9449121-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T17:36:03.958595-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T17:36:12.3774585-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T17:38:26.6204991-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T17:38:33.5702729-04:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2026-04-27T17:38:34.3252551-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T17:38:55.1135925-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T17:38:55.1177979-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2026-04-27T17:38:58.0968634-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2026-04-27T17:38:58.1002016-04:00","level":"INFO","msg":"Pausing system monitor"}
